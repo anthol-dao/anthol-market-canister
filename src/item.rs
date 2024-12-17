@@ -1,5 +1,5 @@
 use crate::{data::MarketData, ITEMS, MARKET_DATA, RECENT_ITEMS};
-use shared::{
+use common::{
     item::ItemId,
     item::{get_item_glance_data, ItemDataInMarket, ItemGlanceData},
     market::{MarketDataResponseWithItemGlances, MarketId, MarketName},

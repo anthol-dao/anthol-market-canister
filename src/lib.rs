@@ -6,7 +6,7 @@ use ic_stable_structures::{
     memory_manager::{MemoryId, MemoryManager, VirtualMemory},
     DefaultMemoryImpl, StableBTreeMap, StableCell, StableLog,
 };
-use shared::{
+use common::{
     item::{ItemDataInMarket, ItemId},
     market::{MarketDataResponseWithItemGlances, MarketId, MarketInitArg, MarketName},
     store::StoreId,

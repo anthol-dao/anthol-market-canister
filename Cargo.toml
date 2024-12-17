@@ -8,11 +8,11 @@ edition = "2021"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-shared.workspace = true
+common.workspace = true
 anyhow = { workspace = true, features = ["backtrace", "std"] }
 canbench-rs = { workspace = true, optional = true }
 candid.workspace = true
-ic-cdk = "0.15.0"
-ic-cdk-macros = "0.15.0"
-ic-stable-structures = "0.6.5"
+ic-cdk = "0.17.0"
+ic-cdk-macros = "0.17.0"
+ic-stable-structures = "0.6.7"
 serde.workspace = true

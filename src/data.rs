@@ -2,7 +2,7 @@ use crate::MARKET_DATA;
 use candid::{CandidType, Decode, Encode};
 use ic_stable_structures::{cell::ValueError, storable::Bound, Storable};
 use serde::{Deserialize, Serialize};
-use shared::market::{MarketId, MarketName};
+use common::market::{MarketId, MarketName};
 use std::borrow::Cow;
 
 #[derive(
